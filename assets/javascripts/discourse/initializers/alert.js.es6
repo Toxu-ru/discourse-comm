@@ -15,16 +15,13 @@ function attachSignature(api) {
      
     
     if (currentUser) {
-   return new RawHtml({html: `<div class='comm'>asd `});
+   return new RawHtml({html: `<div class='comm'></div> `});
    
     }
   
   });
        
-       
-       
-       
-       
+
   }
   
 export default {
