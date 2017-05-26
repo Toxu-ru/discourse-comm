@@ -11,13 +11,13 @@ function attachSignature(api) {
  const attrs = dec.attrs;
     if (Ember.isEmpty(attrs.reply_to_post_number)) { return; }
 
-    const currentUser = api.getCurrentUser();
+  //  const currentUser = api.getCurrentUser();
      
     
-    if (currentUser) {
+  //  if (currentUser) {
    return new RawHtml({html: `<div class='comm'></div> `});
    
-    }
+   // }
   
   });
        
